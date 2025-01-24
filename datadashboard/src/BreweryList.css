@@ -1,0 +1,24 @@
+.brewery-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .brewery-table th,
+  .brewery-table td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .brewery-table th {
+    background-color: #d4af37; 
+    color: #fff; 
+  }
+  
+  .brewery-table tr:nth-child(even) {
+    background-color: #e8d8c3; 
+  }
+  
+  .brewery-table tr:hover {
+    background-color: #ffe4b5; 
+  }
+  
