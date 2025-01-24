@@ -1,27 +1,24 @@
-# Web Development Project 5 - Data Dashboard Part 1
+# Web Development Project 6 - Data Dashboard Part 2
 
 Submitted by: Devon Purification
 
-This web app: A data dashboard that provides an at-a-glance summary of information gathered from a public API. The dashboard view contains summary statistics and a list view of the data that can be searched and filtered.
+This web app: A data dashboard that provides an at-a-glance summary of information gathered from a public API. The dashboard view contains summary statistics and a list view of the data that can be searched and filtered. Using Open Brewery DB, the user is able to see a list of breweries, as well as their type, location, street, and website. Filter options include a search bar, city selection, and type selection.  
 
-Time spent: **X** hours spent in total
+Time spent: **2** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **The list displays a list of data fetched using an API call**
-- [ ] **Data uses the useEffect React hook and async/await syntax**
-- [ ] **The app dashboard includes at least three summary statistics about the data such as**
-  - [ ] *insert details*
-- [ ] **A search bar allows the user to search for an item in the fetched data**
-- [ ] **Multiple different filters (2+) allow the user to filter items in the database by specified categories**
+- [x] **The app includes at least one unique chart developed using the fetched data that tell an interesting story**
+- [x] **Clicking on an item in the list view displays more details about it**
+- [x] **Clicking on an item has a direct, unique link to that item's detail view page**
+
 
 The following **optional** features are implemented:
 
-- [ ] Multiple filters can be applied simultaneously
-- [ ] Filters use different input types such as a text input, a selection, or a slider
-- [ ] The user can enter specific bounds for filter values
+- [x] The site's customized dashboard contains more content that explains what is interesting about the data
+- [ ] The site allows users to toggle between different data visualizations
 
 The following **additional** features are implemented:
 
@@ -31,14 +28,14 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough](https://github.com/COP4808-Spring2024-Full-Stack-Webdev/hw5-xPurification/blob/main/hw5.gif)
+![Video Walkthrough](https://github.com/COP4808-Spring2024-Full-Stack-Webdev/hw6-xPurification/blob/main/HW6.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
 
 ## Notes
 
-N/A
+Had the same issue in the lab where all my information was hugging the left of the page, tried to look through the CSS to find the issue, but could not locate the problem. 
 
 ## License
 

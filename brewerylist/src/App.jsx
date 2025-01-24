@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
+
 import BreweryList from './BreweryList';
+import BreweryChart from './BreweryChart';
 import './App.css';
 
 const App = () => {
@@ -58,6 +60,7 @@ const App = () => {
           <p>Average Breweries per City: {summaryStatistics.averageBreweriesPerCity.toFixed(2)}</p>
         </div>
       )}
+      <BreweryChart breweries={breweries} />
       <BreweryList breweries={breweries} />
     </div>
   );

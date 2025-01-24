@@ -71,6 +71,7 @@ const BreweryList = ({ breweries }) => {
             <th>Type</th>
             <th>Location</th>
             <th>Street</th>
+            <th>Details</th> {/* New column for details */}
           </tr>
         </thead>
         <tbody>
@@ -80,6 +81,7 @@ const BreweryList = ({ breweries }) => {
               <td>{brewery.brewery_type}</td>
               <td>{brewery.city}, {brewery.state}</td>
               <td>{brewery.street}</td>
+              <td>🔗</td>
             </tr>
           ))}
         </tbody>
