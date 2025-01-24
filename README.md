@@ -31,7 +31,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough](https://github.com/COP4808-Spring2024-Full-Stack-Webdev/hw5-xPurification/blob/main/hw5.gif)
+![Video Walkthrough](https://github.com/xPurification/BreweryDashboard/main/hw5.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
